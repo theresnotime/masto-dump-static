@@ -56,7 +56,7 @@ def wrapPost(post: str, timestamp: str, actor: str, status_url: str) -> str:
     Returns:
         str: Wrapped post content
     """
-    return f'<div class="status__wrapper status__wrapper-unlisted focusable">{actor}{timestamp}<div class="status__content prose">{post}</div>{status_url}</div>'
+    return f'<article class="status__wrapper status__wrapper-unlisted focusable">{actor}{timestamp}<div class="status__content prose">{post}</div>{status_url}</article>'
 
 
 def wrapPostLink(status_url: str) -> str:

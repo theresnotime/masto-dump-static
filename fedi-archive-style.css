@@ -1,6 +1,10 @@
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
 header.title {
-    padding-top: 2rem;
-    margin: 1em;
+    margin: 2rem;
     text-align: center;
 }
 
@@ -10291,6 +10295,7 @@ noscript div a:hover {
     margin: 0.5rem;
     padding: 1rem;
     background-color: #626984;
+    border-radius: 0.5rem;
 }
 
 .notification.unread:before,.status__wrapper.unread:before {
